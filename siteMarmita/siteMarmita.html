@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Delícias da Ari</title>
+    <link rel="stylesheet" href="siteMarmita.css">
+</head>
+<body>
+    <section>
+        <h1>Delícias da Ari</h1>
+        <h2>A melhor marmita de Olinda</h2>
+        <div>
+           <p> Avenida/Rua: <input type="text" id="txtAv"> Número: <input type="text" id="txtNum"></p>
+           <p> Complemento: <input type="text" id="txtComp"></p>
+           <p> Celular para contato: <input type="text" id="txtCont"></p>
+            <p>Monte seu prato:</p>
+            <input type="radio" name="rad1" id="arroz" value="Arroz"> Arroz
+            <input type="radio" name="rad1" id="macarrao" value="Macarrão"> Macarrão
+            <p></p>
+            <input type="radio" name="rad2" id="feijaoPreto" value="Feijão Preto"> Feijão Preto
+            <input type="radio" name="rad2" id="feijaoVerde" value="Feijão Verde"> Feijão Verde
+            <input type="radio" name="rad2" id="semFeijao" value="Sem Feijão"> Sem Feijão
+            <p></p>
+            <input type="radio" name="rad3" id="pureBatata" value="Purê de Batata"> Purê de Batata 
+            <input type="radio" name="rad3" id="pureMacaxeira" value="Purê de Macaxeira"> Purê de Macaxeira
+            <input type="radio" name="rad3" id="semPure" value="Sem purê"> Sem Purê 
+            <p></p>
+            <input type="radio" name="rad4" id="carne" value="Carne"> Carne
+            <input type="radio" name="rad4" id="frango" value="Frango"> Frango
+            <input type="radio" name="rad4" id="semCarne" value="Sem Carne"> Sem carne
+            <p></p>
+            <input type="radio" name="rad5" id="refri1" value="refrigerante 1L"> Refrigerante 1L
+            <input type="radio" name="rad5" id="refril" value="refrigerante lata"> Refrigerante lata
+            <input type="radio" name="rad5" id="semRefri" value="rem refrigerante"> Sem refrigerante
+            <p></p>
+            <input type="button" value= "Finalizar pedido" onclick="finalizar()">
+        </div>
+        <div id="msg"></div>
+    </section>
+    <footer>&copy; Rudah Lopes</footer>
+    <script src="siteMarmita.js"></script>
+</body>
+</html>

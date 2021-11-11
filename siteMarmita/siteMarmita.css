@@ -1,0 +1,34 @@
+body {
+    
+    background: rgb(218, 66, 28);
+    margin: auto;
+    text-align: center;
+    color: rgb(255, 238, 0);
+    background-image: url(marmita.png);
+    font: normal 15pt Verdana;
+}
+section {
+    background: red;
+    border-radius: 10px; /* borda arredondada */
+    padding: 15px;
+    width: 600px; /* largura */
+    margin: auto; /* Margen centraliza automáticamente*/
+    text-align: center;
+    color: yellow;
+    box-shadow: /*sombreamento da caixa*/ 5px /*deslocamento lateral*/ 5px /*deslocamento vertical*/ 10px /*espalhamento*/ rgba(0, 0, 0, 0.418);
+}
+p {
+    text-align: left;
+}
+#div {
+    text-align: left;
+}
+footer {
+    margin-top: 5px;
+    text-align: center;
+    color: white;
+    font-style: italic;
+}
+#msg {
+    margin-top: 15px;
+}

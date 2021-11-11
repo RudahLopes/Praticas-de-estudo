@@ -12,7 +12,7 @@ section {
     border-radius: 10px; /* borda arredondada */
     padding: 15px;
     width: 600px; /* largura */
-    margin: auto; /* Margen centraliza automáticamente*/
+    margin: 50px auto; /* Margen centraliza automáticamente*/
     text-align: center;
     color: yellow;
     box-shadow: /*sombreamento da caixa*/ 5px /*deslocamento lateral*/ 5px /*deslocamento vertical*/ 10px /*espalhamento*/ rgba(0, 0, 0, 0.418);

@@ -8,11 +8,13 @@
     <link rel="stylesheet" href="siteMarmita.css">
 </head>
 <body>
-    <section>
+    <header id="topo">
         <h1>Delícias da Ari</h1>
-        <h2>A melhor marmita de Olinda</h2>
+        <h2>A melhor marmita de Olinda</h2> 
+    </header>
+    <section id="cardapio">
         <div>
-           <p> Avenida/Rua: <input type="text" id="txtAv"> Número: <input type="text" id="txtNum"></p>
+           <p> Avenida/Rua: <input type="text" id="txtAv" autofocus> Número: <input type="text" id="txtNum"></p>
            <p> Complemento: <input type="text" id="txtComp"></p>
            <p> Celular para contato: <input type="text" id="txtCont"></p>
             <p>Monte seu prato:</p>
@@ -35,11 +37,14 @@
             <input type="radio" name="rad5" id="refril" value="refrigerante lata"> Refrigerante lata
             <input type="radio" name="rad5" id="semRefri" value="rem refrigerante"> Sem refrigerante
             <p></p>
-            <input type="button" value= "Finalizar pedido" onclick="finalizar()">
+            <input type="button" value= "Confirmar" id="confirmar" onclick="confirmar()">
         </div>
-        <div id="msg"></div>
     </section>
-    <footer>&copy; Rudah Lopes</footer>
+    <section id="confirmar">
+        <div id="msg">Complete seu pedido e selecione "Confirmar". Confira as informações aqui, caso tudo esteja correto, finalize seu pedido.</div>
+        <input type="button" value="Recomeçar" id="recomeçar" onclick="window.location.reload()"> <input type="button" value="Finalizar pedido" id="finalizar" onclick="finalizar()">
+    </section>
+    <footer><a href="http://github.com/rudahlopes" target="_blank"><img src="github-50.png" alt="Direcionar ao GituHub"></a> &copy; Rudah Lopes <a href="http://www.linkedin.com/in/rudahlopes/" target="_blank"><img src="linkedin-50.png" alt="Direcionar ao Linkedin"></a></footer>
     <script src="siteMarmita.js"></script>
 </body>
 </html>

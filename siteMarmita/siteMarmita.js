@@ -1,4 +1,4 @@
-function finalizar () {
+function confirmar () {
     if (dadosCorretos() == true) {
         let av = document.getElementById("txtAv").value
         let num = document.getElementById("txtNum").value
@@ -25,6 +25,11 @@ function finalizar () {
     } else {
         window.alert (`[ERRO] Complete todas as informações`)
     }
+}
+
+function finalizar () {
+    var msg = document.getElementById('msg')
+    msg.innerHTML = `Certo, seu pedido já está sendo preparado e em até 50 minutos irá até você. Obrigado pela preferência!`
 }
 
 function dadosCorretos() {

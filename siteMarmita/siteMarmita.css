@@ -17,7 +17,6 @@ section#cardapio {
     color: yellow;
     box-shadow: /*sombreamento da caixa*/ 5px /*deslocamento lateral*/ 5px /*deslocamento vertical*/ 10px /*espalhamento*/ rgba(0, 0, 0, 0.418);
     display: inline-block;
-    margin-left: 5%;
 }
 header#topo {
     background: red;
@@ -35,7 +34,6 @@ section#confirmar {
     margin: 50px auto ;
     box-shadow: 5px  5px  10px  rgba(0, 0, 0, 0.418);
     display: inline-block;
-    margin-right: 5%;
 }
 p {
     text-align: left;
